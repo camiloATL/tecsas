@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 //import mailer from './components/mailer';
 
@@ -11,6 +11,7 @@ function App() {
 
   return (
     <div className="App">
+      <section className="App-content"></section>
       <h1> Contador</h1>
       <div>
         <span>{contadorValue}</span>
