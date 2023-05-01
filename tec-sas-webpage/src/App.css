@@ -30,7 +30,7 @@
 }
 
 .tittleregister:hover {
-  background-color: rgb(98, 0, 255);
+  background-color: rgb(0, 247, 21);
   transition: 5s;
 }
 .line {
@@ -45,37 +45,23 @@
 .contenedor {
   display: flex;
 }
-.titanlogo {
-  flex: 1;
-  margin-right: 10px;
-  margin-left: 10px;
-  border: solid;
-  margin-top: 10px;
-  height: 100px;
-  width: 100px;
-}
 .stylelogin {
   flex: 1;
-  margin-right: 10px;
-  border: solid;
+  /*border: solid;*/
+  margin-right: 200px;
+  margin-left: 200px;
   margin-top: 10px;
-  height: 100px;
-  width: 100px;
-}
-.codeblocklogo {
-  flex: 1;
-  margin-right: 10px;
-  border: solid;
-  margin-top: 10px;
-  height: 100px;
-  width: 100px;
+  height: 550px;
+  
 }
 .ancho-arriba {
   width: 200px;
-  height: 200px;
-  border-top: 2px solid red;
-  border-right: 5px dotted blue;
-  border-bottom: 10px dashed green;
-  border-left: 20px double purple;
+  height: 100px;
+  background-color: #ccc;
+  transform: skew(20deg);
+  transform-origin: top left;
+}
+.row {
+  margin-top: 10px;
 }
 
