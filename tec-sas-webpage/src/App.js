@@ -1,27 +1,20 @@
-import React, { useState } from "react";
 import "./App.css";
-//import mailer from './components/mailer';
+import Navbar from "./shared/navbar";
 
 function App() {
-  const [contadorValue, actualizarContador] = useState(52);
-
-  const sumar = ()=>{
-    actualizarContador(contadorValue + 1)
-  }
-
   return (
     <div className="App">
-      <section className="App-content"></section>
-      <h1> Contador</h1>
-      <div>
-        <span>{contadorValue}</span>
-        <button
-          onClick={sumar}
-        >
-          Increment +
-        </button>
-        <button onClick={() => {actualizarContador(contadorValue-1)}}>Decrement -</button>
+      <Navbar></Navbar>
+      <div className="tittleregister">
+        <h3 className="tittletext">Registro de usuarios</h3>
       </div>
+      <div className="line"></div>
+      <div className="contenedor">
+        <div className="titanlogo"></div>
+        <div className="stylelogin"></div>
+        <div className="codeblocklogo"></div>
+      </div>
+      <div className="ancho-arriba"></div>
     </div>
   );
 }
